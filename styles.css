@@ -1,5 +1,8 @@
+@import url(array.css);
+
 body {
     background: #d89503bd;
+    font-family: 'Array-Regular';
 }
 
 /* diagnostic styling */
