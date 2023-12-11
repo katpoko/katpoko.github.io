@@ -1,8 +1,6 @@
 @import url(array.css);
 
 body {
-    background: #d89503bd;
-    font-family: 'Array-Regular';
 }
 
 /* diagnostic styling */
@@ -12,6 +10,11 @@ body {
 
 /* layout */
 body {
+  font-family: 'Array-Regular';
+  font-size: 1.2em;
+  color:bisque;
+  font-kerning: auto;
+  background: #ddd016bd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,11 +54,15 @@ body {
 }
 
 .front {
-  background: orange;
+  background: #e53935;
+  border-radius: 20px;
+  padding: 15px;
 }
 
 .back {
-  background: orangered;
+  background: #64b5f6;
+  border-radius: 20px;
+  padding: 15px;
   /* flip it default   */
   transform: rotateY(180deg);
 }
